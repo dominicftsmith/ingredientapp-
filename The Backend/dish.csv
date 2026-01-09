@@ -1,0 +1,51 @@
+ComponentID,ComponentName,PartofItemID,PartofItemName,MenuItemID,MenuItemName,Ratio,Quantity,Unit
+ING-011,Yeast,POF-001,Bun,MENU-001,Hamburger,0.20,0.125,teaspoon
+ING-009,Milk,POF-001,Bun,MENU-001,Hamburger,0.20,0.25,cup
+ING-010,Butter,POF-001,Bun,MENU-001,Hamburger,0.20,1.001,teaspoon
+ING-003,Flour,POF-001,Bun,MENU-001,Hamburger,0.10,0.25,cup
+ING-018,Vegetables,POF-0NA,N/A,MENU-001,Hamburger,0.20,0.125,cup
+ING-001,Ground Beef,POF-002,Beef Patty,MENU-001,Hamburger,0.50,0.25,lbs
+ING-018,Vegetables,POF-002,Steak Patty,MENU-002,Hamburger Steak,0.20,0.125,cup
+ING-001,Ground Beef,POF-002,Steak Patty,MENU-002,Hamburger Steak,0.50,0.25,lbs
+ING-004,Eggs,POF-002,Steak Patty,MENU-002,Hamburger Steak,0.20,0.5,each
+ING-002,Potatoes ,POF-0NA,N/A,MENU-003,French Fries,0.29,7.00,ounce
+ING-002,Potatoes ,POF-0NA,N/A,MENU-004,Mashed Potatoes,0.29,4.00,ounce
+ING-010,Butter,POF-0NA,N/A,MENU-004,Mashed Potatoes,0.20,3.00,tablespoon
+ING-009,Milk,POF-0NA,N/A,MENU-004,Mashed Potatoes,0.20,0.125,cup
+ING-011,Yeast,POF-001,Bun,MENU-005,Chicken Burger,0.20,0.125,teaspoon
+ING-009,Milk,POF-001,Bun,MENU-005,Chicken Burger,0.20,0.25,cup
+ING-010,Butter,POF-001,Bun,MENU-005,Chicken Burger,0.20,1.001,teaspoon
+ING-003,Flour,POF-001,Bun,MENU-005,Chicken Burger,0.10,0.25,cup
+ING-018,Vegetables,POF-0NA,N/A,MENU-005,Chicken Burger,0.20,0.125,cup
+ING-008,Whole Chicken,POF-003,Chicken Patty,MENU-005,Chicken Burger,0.50,0.25,cup
+ING-018,Vegetables,POF-003,Chicken Patty,MENU-005,Chicken Burger,0.20,0.125,cup
+ING-003,Flour,POF-003,Chicken Patty,MENU-005,Chicken Burger,0.10,0.125,cup
+ING-003,Flour,POF-0NA,N/A,MENU-006,Fried Chicken,0.10,0.25,cup
+ING-009,Milk,POF-0NA,N/A,MENU-006,Fried Chicken,0.20,0.25,cup
+ING-008,Whole Chicken,POF-0NA,N/A,MENU-006,Fried Chicken,0.50,0.6667,lbs
+ING-018,Vegetables,POF-0NA,N/A,MENU-007,Veggie Medoly,0.50,1.00,cup
+ING-010,Butter,POF-0NA,N/A,MENU-007,Veggie Medoly,0.20,0.125,cup
+ING-006,Bacon ,POF-0NA,N/A,MENU-008,Bacon,0.50,2.00,each
+ING-005,Sausage,POF-0NA,N/A,MENU-009,Sausage,0.50,2.00,each
+ING-007,Turkey Sausage,POF-0NA,N/A,MENU-010,Turkey Sausage,0.50,2.00,each
+ING-004,Eggs,POF-0NA,N/A,MENU-011,Side of Eggs,0.20,2.00,each
+ING-010,Butter,POF-0NA,N/A,MENU-011,Side of Eggs,0.20,0.125,cup
+ING-004,Eggs,POF-0NA,N/A,MENU-012,French Toast,0.20,1.00,each
+ING-010,Butter,POF-0NA,N/A,MENU-012,French Toast,0.20,0.125,cup
+ING-009,Milk,POF-0NA,N/A,MENU-012,French Toast,0.20,0.25,cup
+ING-017,Bread,POF-0NA,N/A,MENU-012,French Toast,0.10,2.00,each
+ING-014,Coffee,POF-0NA,N/A,MENU-013,Coffee,0.10,2.00,cup
+ING-009,Milk ,POF-0NA,N/A,MENU-014,Milk,0.20,2.00,cup
+ING-016,Fruit,POF-0NA,N/A,MENU-015,Juice,0.20,2.00,cup
+ING-012,Buffalo Fish,POF-0NA,N/A,MENU-016,Fried Fish,0.50,0.8,lbs
+ING-003,Flour,POF-0NA,N/A,MENU-016,Fried Fish,0.10,0.125,cup
+ING-009,Milk ,POF-0NA,N/A,MENU-016,Fried Fish,0.50,0.125,cup
+ING-003,Flour,POF-0NA,N/A,MENU-017,Roll,0.10,0.125,cup
+ING-009,Milk,POF-0NA,N/A,MENU-017,Roll,0.20,0.125,cup
+ING-011,Yeast,POF-001,N/A,MENU-017,Roll,0.20,0.125,teaspoon
+ING-010,Butter,POF-0NA,N/A,MENU-017,Roll,0.20,1.001,tablespoon
+ING-013,Fountain Drink,POF-0NA,N/A,MENU-018,Fountain Drink,0.28,2.001,cup
+ING-015,Bottle Water,POF-0NA,N/A,MENU-019,Bottle Water,0.28,1.00,cup
+ING-016,Fruit,POF-0NA,N/A,MENU-020,Seasonal Fruit,0.29,1.00,cup
+ING-017,Bread,POF-0NA,N/A,MENU-021,Toast,0.10,2.00,each
+ING-010,Butter,POF-0NA,N/A,MENU-021,Toast,0.20,2.00,teaspoon

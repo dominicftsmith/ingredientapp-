@@ -1,0 +1,75 @@
+SubstitutionID,Category,Original_ItemID,Original_ItemName,Substitute_ID,SubstituteName,Priority,RAG_Justification
+SUB-001,Protein,MENU-006,Fried Chicken,MENU-002,Hamburger Steak,,"For another hearty, classic comfort food, you might love our Hamburger Steak."
+SUB-001,Protein,MENU-006,Fried Chicken,MENU-016,Fried Fish,,In the mood for something crispy and delicious? Our Fried Fish is a fantastic choice!
+SUB-002,Protein,MENU-002,Hamburger Steak,MENU-006,Fried Chicken,,"If you're looking for a classic, you can't go wrong with our famous Fried Chicken!"
+SUB-002,Protein,MENU-002,Hamburger Steak,MENU-016,Fried Fish,,Another great savory option is our crispy Fried Fish meal!
+SUB-003,Protein,MENU-016,Fried Fish,MENU-006,Fried Chicken,,You can't go wrong with our famous Fried Chicken – a true classic!
+SUB-004,Protein,MENU-016,Fried Fish,MENU-002,Hamburger Steak,,"For another hearty, classic comfort food, you might love our Hamburger Steak."
+SUB-005,Protein,MENU-001,Hamburger,MENU-005,Chicken Burger,,"Based on your search, you might also love our in-house ground Chicken Burger!"
+SUB-006,Protein,MENU-005,Chicken Burger,MENU-001,Hamburger,,Our signature Classic Beef Burger is also a fantastic choice!
+SUB-007,Protein,MENU-008,Bacon,MENU-009,Sausage,,Our classic sausage patties are also a delicious and savory breakfast choice.
+SUB-007,Protein,MENU-008,Bacon,MENU-010	Turkey Sausage,,,"Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+SUB-007,Protein,MENU-008,Bacon,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-007,Protein,MENU-008,Bacon,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-008,Protein,MENU-009,Sausage,MENU-008,Bacon,,Our classic crispy bacon is also a delicious and savory breakfast choice.
+SUB-008,Protein,MENU-009,Sausage,MENU-010,Turkey Sausage,,"Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+SUB-008,Protein,MENU-009,Sausage,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-008,Protein,MENU-009,Sausage,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-009,Protein,MENU-010,Turkey Sausage,MENU-008,Bacon,,Our classic crispy bacon is also a delicious and savory breakfast choice.
+SUB-009,Protein,MENU-010,Turkey Sausage,MENU-009,Sausage,,Our classic sausage patties are also a delicious and savory breakfast choice.
+SUB-009,Protein,MENU-010,Turkey Sausage,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-009,Protein,MENU-010,Turkey Sausage,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-010,Protein,MENU-011,Side of Eggs,MENU-008,Bacon,,Our classic crispy bacon is a great savory addition.
+SUB-010,Protein,MENU-011,Side of Eggs,MENU-009,Sausage,,Our classic sausage patties are a great savory addition.
+SUB-010,Protein,MENU-011,Side of Eggs,MENU-010,Turkey Sausage,,Our flavorful turkey sausage is a great savory addition.
+SUB-010,Protein,MENU-011,Side of Eggs,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-011,Side,MENU-011,Side of Eggs,MENU-020,Seasonal Fruit,,Seasonal fruit is another great side to start the day.
+SUB-011,Side,MENU-011,Side of Eggs,MENU-021,Toast,,Who doesn't like extra toast?
+SUB-011,Side,MENU-011,Side of Eggs,MENU-012,French Toast,,A side of French toast.
+SUB-012,Protein,MENU-012,French Toast,MENU-008,Bacon,,Our classic crispy bacon is a great savory addition.
+SUB-012,Protein,MENU-012,French Toast,MENU-009,Sausage,,Our classic sausage patties are a great savory addition.
+SUB-012,Protein,MENU-012,French Toast,MENU-010,Turkey Sausage,,Our flavorful turkey sausage is a great savory addition.
+SUB-012,Protein,MENU-012,French Toast,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-013,Side,MENU-020,Seasonal Fruit,SUB-011,Side of Eggs,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-013,Side,MENU-020,Seasonal Fruit,MENU-021,Toast,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-013,Side,MENU-020,Seasonal Fruit,MENU-012,French Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-014,Side,MENU-021,Toast,MENU-011,Side of Eggs,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-014,Side,MENU-021,Toast,MENU-020,Seasonal Fruit,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-014,Side,MENU-021,Toast,MENU-012,French Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-015,Side,MENU-012,French Toast,SUB-011,Side of Eggs,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-015,Side,MENU-012,French Toast,MENU-021,Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-015,Side,MENU-012,French Toast,MENU-020,Seasonal Fruit,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-016,Side,MENU-003,French Fries,MENU-004,Mashed Potatoes,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-016,Side,MENU-003,French Fries,MENU-007,Veggie Medoly,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-016,Side,MENU-003,French Fries,MENU-017,Roll,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-017,Side,MENU-004,Mashed Potatoes,MENU-003,French Fries,,Our fresh-baked bun is also a great choice!
+SUB-017,Side,MENU-004,Mashed Potatoes,MENU-007,Veggie Medoly,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-017,Side,MENU-004,Mashed Potatoes,MENU-017,Roll,,"A cold, refreshing glass of milk is a great choice."
+SUB-018,Side,MENU-007,Veggie Medoly,MENU-003,French Fries,,We also have a selection of refreshing juices!
+SUB-018,Side,MENU-007,Veggie Medoly,MENU-017,Roll,,A cold fountain drink is a perfect refresher.
+SUB-018,Side,MENU-007,Veggie Medoly,MENU-004,Mashed Potatoes,,A crisp bottle of water is always a good option.
+SUB-019,Side,MENU-017,Roll,MENU-003,French Fries,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-019,Side,MENU-017,Roll,MENU-007,Veggie Medoly,,We also have a selection of refreshing juices!
+SUB-019,Side,MENU-017,Roll,MENU-004,Mashed Potatoes,,A cold fountain drink is a perfect refresher.
+SUB-019,Side,MENU-017,Roll,POF-001,Bun,,A crisp bottle of water is always a good option.
+SUB-020,Side,POF-001,Bun,MENU-017,Roll,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-021,Drink,MENU-013,Coffee,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-021,Drink,MENU-013,Coffee,MENU-015,Juice,,A cold fountain drink is a perfect refresher.
+SUB-021,Drink,MENU-013,Coffee,MENU-018,Fountain Drink,,A crisp bottle of water is always a good option.
+SUB-021,Drink,MENU-013,Coffee,MENU-019,Bottle Water,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-022,Drink,MENU-014,Milk,MENU-013,Coffee,,"A cold, refreshing glass of milk is a great choice."
+SUB-022,Drink,MENU-014,Milk,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-022,Drink,MENU-014,Milk,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.
+SUB-022,Drink,MENU-014,Milk,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-023,Drink,MENU-015,Juice,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-023,Drink,MENU-015,Juice,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-023,Drink,MENU-015,Juice,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.
+SUB-023,Drink,MENU-015,Juice,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-024,Drink,MENU-018,Fountain Drink,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-024,Drink,MENU-018,Fountain Drink,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-024,Drink,MENU-018,Fountain Drink,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-024,Drink,MENU-018,Fountain Drink,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-025,Drink,MENU-019,Bottle Water,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-025,Drink,MENU-019,Bottle Water,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-025,Drink,MENU-019,Bottle Water,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-025,Drink,MENU-019,Bottle Water,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.

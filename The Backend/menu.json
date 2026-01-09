@@ -1,0 +1,766 @@
+{
+  "menu": {
+    "breakfast": [],
+    "lunch": [
+      {
+        "id": "MENU-006",
+        "name": "Fried Chicken",
+        "description": "Two pieces of our famous fried chicken.",
+        "price": 15.99,
+        "category": "MAIN_LUNCH",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-004",
+          "MENU-007",
+          "MENU-017",
+          "MENU-018"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-002",
+            "suggest_item_name": "Hamburger Steak",
+            "rag_justification": "For another hearty, classic comfort food, you might love our Hamburger Steak."
+          },
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-016",
+            "suggest_item_name": "Fried Fish",
+            "rag_justification": "In the mood for something crispy and delicious? Our Fried Fish is a fantastic choice!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-002",
+        "name": "Hamburger Steak",
+        "description": "A hearty hamburger steak smothered in gravy.",
+        "price": 16.99,
+        "category": "MAIN_LUNCH",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-004",
+          "MENU-017",
+          "MENU-018"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-006",
+            "suggest_item_name": "Fried Chicken",
+            "rag_justification": "If you're looking for a classic, you can't go wrong with our famous Fried Chicken!"
+          },
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-016",
+            "suggest_item_name": "Fried Fish",
+            "rag_justification": "Another great savory option is our crispy Fried Fish meal!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-016",
+        "name": "Fried Fish",
+        "description": "2 Crispy fried buffalo fish steaks.",
+        "price": 15.99,
+        "category": "MAIN_LUNCH",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-004",
+          "MENU-017",
+          "MENU-018"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-006",
+            "suggest_item_name": "Fried Chicken",
+            "rag_justification": "You can't go wrong with our famous Fried Chicken \u2013 a true classic!"
+          },
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-002",
+            "suggest_item_name": "Hamburger Steak",
+            "rag_justification": "For another hearty, classic comfort food, you might love our Hamburger Steak."
+          }
+        ]
+      },
+      {
+        "id": "MENU-001",
+        "name": "Hamburger",
+        "description": "Our signature beef burger, with toppings, on a bun.",
+        "price": 14.99,
+        "category": "MAIN_LUNCH",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-003MENU-007",
+          "MENU-018"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-005",
+            "suggest_item_name": "Chicken Burger",
+            "rag_justification": "Based on your search, you might also love our in-house ground Chicken Burger!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-005",
+        "name": "Chicken Burger",
+        "description": "In-house ground chicken burger, with toppings, on a bun.",
+        "price": 14.99,
+        "category": "MAIN_LUNCH",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-003MENU-007",
+          "MENU-018"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_LUNCH",
+            "suggest_item_id": "MENU-001",
+            "suggest_item_name": "Hamburger",
+            "rag_justification": "Our signature Classic Beef Burger is also a fantastic choice!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-008",
+        "name": "Bacon",
+        "description": "Butcher's choice smoked bacon.",
+        "price": 10.99,
+        "category": "MAIN_BRKFAST",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-011",
+          "MENU-021",
+          "MENU-013"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-009",
+            "suggest_item_name": "Sausage",
+            "rag_justification": "Our classic sausage patties are also a delicious and savory breakfast choice."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-010",
+            "suggest_item_name": "Turkey Sausage",
+            "rag_justification": "Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "A side of eggs is also a great way to start the day!"
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "Or perhaps something sweet and savory? Our French Toast is amazing!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-009",
+        "name": "Sausage",
+        "description": "Butcher's choice smoked sausage patty.",
+        "price": 10.99,
+        "category": "MAIN_BRKFAST",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-011",
+          "MENU-021",
+          "MENU-013"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-008",
+            "suggest_item_name": "Bacon",
+            "rag_justification": "Our classic crispy bacon is also a delicious and savory breakfast choice."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-010",
+            "suggest_item_name": "Turkey Sausage",
+            "rag_justification": "Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "A side of eggs is also a great way to start the day!"
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "Or perhaps something sweet and savory? Our French Toast is amazing!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-010",
+        "name": "Turkey Sausage",
+        "description": "Lean, yet hearty, turkey sausage links.",
+        "price": 10.99,
+        "category": "MAIN_BRKFAST",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-011",
+          "MENU-021",
+          "MENU-013"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-008",
+            "suggest_item_name": "Bacon",
+            "rag_justification": "Our classic crispy bacon is also a delicious and savory breakfast choice."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-009",
+            "suggest_item_name": "Sausage",
+            "rag_justification": "Our classic sausage patties are also a delicious and savory breakfast choice."
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "A side of eggs is also a great way to start the day!"
+          },
+          {
+            "trigger_ingredient": "MAIN_BRKFAST",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "Or perhaps something sweet and savory? Our French Toast is amazing!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-011",
+        "name": "Side of Eggs",
+        "description": "Two eggs, your way. Options: sunny side up, over easy, ",
+        "price": 10.99,
+        "category": "COMBO_BRKFAST",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-011",
+          "MENU-021",
+          "MENU-013"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-008",
+            "suggest_item_name": "Bacon",
+            "rag_justification": "Our classic crispy bacon is a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-009",
+            "suggest_item_name": "Sausage",
+            "rag_justification": "Our classic sausage patties are a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-010",
+            "suggest_item_name": "Turkey Sausage",
+            "rag_justification": "Our flavorful turkey sausage is a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "Or perhaps something sweet and savory? Our French Toast is amazing!"
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-020",
+            "suggest_item_name": "Seasonal Fruit",
+            "rag_justification": "Seasonal fruit is another great side to start the day."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-021",
+            "suggest_item_name": "Toast",
+            "rag_justification": "Who doesn't like extra toast?"
+          }
+        ]
+      },
+      {
+        "id": "MENU-012",
+        "name": "French Toast",
+        "description": "Thick-cut french toast with seasonal fruit",
+        "price": 13.99,
+        "category": "COMBO_BRKFAST",
+        "type": "Meal",
+        "tags": [],
+        "component_ids": [
+          "MENU-011",
+          "MENU-020",
+          "MENU-015"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-008",
+            "suggest_item_name": "Bacon",
+            "rag_justification": "Our classic crispy bacon is a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-009",
+            "suggest_item_name": "Sausage",
+            "rag_justification": "Our classic sausage patties are a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-010",
+            "suggest_item_name": "Turkey Sausage",
+            "rag_justification": "Our flavorful turkey sausage is a great savory addition."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "A side of eggs is also a great way to start the day!"
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-021",
+            "suggest_item_name": "Toast",
+            "rag_justification": "A warm, fresh-baked roll is the perfect addition to any meal."
+          },
+          {
+            "trigger_ingredient": "COMBO_BRKFAST",
+            "suggest_item_id": "MENU-020",
+            "suggest_item_name": "Seasonal Fruit",
+            "rag_justification": "Our creamy, homemade mashed potatoes are a fantastic side!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-020",
+        "name": "Seasonal Fruit",
+        "description": "Fresh seasonal fruit in lemon juice.",
+        "price": 2.99,
+        "category": "SIDE_COMBO",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_COMBO",
+            "suggest_item_id": "SUB-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "Our creamy, homemade mashed potatoes are a fantastic side!"
+          },
+          {
+            "trigger_ingredient": "SIDE_COMBO",
+            "suggest_item_id": "MENU-021",
+            "suggest_item_name": "Toast",
+            "rag_justification": "Our steamed seasonal vegetable medley is a great healthy choice."
+          },
+          {
+            "trigger_ingredient": "SIDE_COMBO",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "A warm, fresh-baked roll is the perfect addition to any meal."
+          }
+        ]
+      },
+      {
+        "id": "MENU-021",
+        "name": "Toast",
+        "description": "Two pieces of buttered toast, with your choice of jelly.",
+        "price": 1.99,
+        "category": "SIDE_BRKFAST",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_BRKFAST",
+            "suggest_item_id": "MENU-011",
+            "suggest_item_name": "Side of Eggs",
+            "rag_justification": "Our fresh, hand-cut fries are a house favorite!"
+          },
+          {
+            "trigger_ingredient": "SIDE_BRKFAST",
+            "suggest_item_id": "MENU-020",
+            "suggest_item_name": "Seasonal Fruit",
+            "rag_justification": "Our steamed seasonal vegetable medley is a great healthy choice."
+          },
+          {
+            "trigger_ingredient": "SIDE_BRKFAST",
+            "suggest_item_id": "MENU-012",
+            "suggest_item_name": "French Toast",
+            "rag_justification": "A warm, fresh-baked roll is the perfect addition to any meal."
+          }
+        ]
+      },
+      {
+        "id": "MENU-003",
+        "name": "French Fries",
+        "description": "A basket of our fresh, hand-cut french fries.",
+        "price": 4.99,
+        "category": "SIDE_LUNCH",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-004",
+            "suggest_item_name": "Mashed Potatoes",
+            "rag_justification": "Our fresh, hand-cut fries are a house favorite!"
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-007",
+            "suggest_item_name": "Veggie Medley",
+            "rag_justification": "Our steamed seasonal vegetable medley is a great healthy choice."
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-017",
+            "suggest_item_name": "Roll",
+            "rag_justification": "Our creamy, homemade mashed potatoes are a fantastic side!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-004",
+        "name": "Mashed Potatoes",
+        "description": "Creamy mashed potatoes, with gravy on request.",
+        "price": 4.99,
+        "category": "SIDE_LUNCH",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-003",
+            "suggest_item_name": "French Fries",
+            "rag_justification": "Our fresh-baked bun is also a great choice!"
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-007",
+            "suggest_item_name": "Veggie Medley",
+            "rag_justification": "A warm, fresh-baked roll is the perfect addition to any meal."
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-017",
+            "suggest_item_name": "Roll",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          }
+        ]
+      },
+      {
+        "id": "MENU-007",
+        "name": "Veggie Medley",
+        "description": "Steamed seasonal vegetables.",
+        "price": 2.99,
+        "category": "SIDE_LUNCH",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-003",
+            "suggest_item_name": "French Fries",
+            "rag_justification": "We also have a selection of refreshing juices!"
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-017",
+            "suggest_item_name": "Roll",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          },
+          {
+            "trigger_ingredient": "SIDE_LUNCH",
+            "suggest_item_id": "MENU-004",
+            "suggest_item_name": "Mashed Potatoes",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          }
+        ]
+      },
+      {
+        "id": "MENU-017",
+        "name": "Roll",
+        "description": "A single roll, baked fresh in-house.",
+        "price": 1.99,
+        "category": "SIDE_SPEC",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_SPEC",
+            "suggest_item_id": "MENU-003",
+            "suggest_item_name": "French Fries",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          },
+          {
+            "trigger_ingredient": "SIDE_SPEC",
+            "suggest_item_id": "MENU-007",
+            "suggest_item_name": "Veggie Medley",
+            "rag_justification": "We also have a selection of refreshing juices!"
+          },
+          {
+            "trigger_ingredient": "SIDE_SPEC",
+            "suggest_item_id": "MENU-004",
+            "suggest_item_name": "Mashed Potatoes",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          },
+          {
+            "trigger_ingredient": "SIDE_SPEC",
+            "suggest_item_id": "POF-001",
+            "suggest_item_name": "Bun",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          }
+        ]
+      },
+      {
+        "id": "POF-001",
+        "name": "Bun",
+        "description": "A single bun, baked fresh in-house.",
+        "price": 1.99,
+        "category": "SIDE_SPEC",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "SIDE_SPEC",
+            "suggest_item_id": "MENU-017",
+            "suggest_item_name": "Roll",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-013",
+        "name": "Coffee",
+        "description": "Imported medium roast coffee",
+        "price": 1.99,
+        "category": "DRINK",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-014",
+            "suggest_item_name": "Milk",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-015",
+            "suggest_item_name": "Juice",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-018",
+            "suggest_item_name": "Fountain Drink",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-019",
+            "suggest_item_name": "Bottle Water",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          }
+        ]
+      },
+      {
+        "id": "MENU-014",
+        "name": "Milk",
+        "description": "Locally source dairy milk.",
+        "price": 1.99,
+        "category": "DRINK",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-013",
+            "suggest_item_name": "Coffee",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-015",
+            "suggest_item_name": "Juice",
+            "rag_justification": "We also have a selection of refreshing juices!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-018",
+            "suggest_item_name": "Fountain Drink",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-019",
+            "suggest_item_name": "Bottle Water",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          }
+        ]
+      },
+      {
+        "id": "MENU-015",
+        "name": "Juice",
+        "description": "Your choice of apple, orange, or fruit punch juice. Freshly squeezed in-house.",
+        "price": 2.99,
+        "category": "DRINK",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-013",
+            "suggest_item_name": "Coffee",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-014",
+            "suggest_item_name": "Milk",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-018",
+            "suggest_item_name": "Fountain Drink",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-019",
+            "suggest_item_name": "Bottle Water",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          }
+        ]
+      },
+      {
+        "id": "MENU-018",
+        "name": "Fountain Drink",
+        "description": "Your choice of soft drink.",
+        "price": 2.99,
+        "category": "DRINK",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-013",
+            "suggest_item_name": "Coffee",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-014",
+            "suggest_item_name": "Milk",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-015",
+            "suggest_item_name": "Juice",
+            "rag_justification": "We also have a selection of refreshing juices!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-019",
+            "suggest_item_name": "Bottle Water",
+            "rag_justification": "A crisp bottle of water is always a good option."
+          }
+        ]
+      },
+      {
+        "id": "MENU-019",
+        "name": "Bottle Water",
+        "description": "Locally sourced bottled water.",
+        "price": 1.99,
+        "category": "DRINK",
+        "type": "A La Carte",
+        "tags": [],
+        "component_ids": [
+          "NULL"
+        ],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-013",
+            "suggest_item_name": "Coffee",
+            "rag_justification": "A cup of our fresh, hot coffee is a great way to start!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-014",
+            "suggest_item_name": "Milk",
+            "rag_justification": "A cold, refreshing glass of milk is a great choice."
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-015",
+            "suggest_item_name": "Juice",
+            "rag_justification": "We also have a selection of refreshing juices!"
+          },
+          {
+            "trigger_ingredient": "DRINK",
+            "suggest_item_id": "MENU-018",
+            "suggest_item_name": "Fountain Drink",
+            "rag_justification": "A cold fountain drink is a perfect refresher."
+          }
+        ]
+      }
+    ]
+  }
+}

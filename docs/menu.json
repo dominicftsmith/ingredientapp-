@@ -1,0 +1,315 @@
+
+
+{
+  "menu": {
+    "breakfast": [
+      {
+        "id": "B1",
+        "name": "Classic Breakfast Plate",
+        "description": "Two eggs any style, your choice of breakfast meat, and toast.",
+        "price": 10.99,
+        "category": "Breakfast",
+        "type": "Meal",
+        "component_ingredients": ["Eggs", "Toast", "Choice of Meat"],
+        "options_category": "Choice of Meat",
+        "options": ["Sausage", "Bacon", "Turkey Sausage"],
+        "tags": ["hearty", "protein", "classic", "dairy-free option", "gluten-free option"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Sausage",
+            "suggest_item_id": "B1",
+            "suggest_option": "Bacon",
+            "rag_justification": "You might also like our classic bacon with your breakfast!"
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "name": "French Toast Deluxe",
+        "description": "Thick-cut french toast with seasonal fruit, two eggs, and your choice of meat.",
+        "price": 13.99,
+        "category": "Breakfast",
+        "type": "Meal",
+        "component_ingredients": ["Bread", "Eggs", "Milk", "Fruit", "Choice of Meat"],
+        "options_category": "Choice of Meat",
+        "options": ["Sausage", "Bacon", "Turkey Sausage"],
+        "tags": ["hearty", "sweet", "classic", "contains dairy", "contains gluten"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "B3",
+        "name": "Side: Eggs & Toast",
+        "description": "Two eggs any style and a side of toast.",
+        "price": 4.99,
+        "category": "Breakfast",
+        "type": "A La Carte",
+        "component_ingredients": ["Eggs", "Toast"],
+        "tags": ["simple", "classic", "vegetarian", "dairy-free", "gluten-free option"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "B4",
+        "name": "Side: Breakfast Meat",
+        "description": "Your choice of sausage, bacon, or turkey sausage.",
+        "price": 3.99,
+        "category": "Breakfast",
+        "type": "A La Carte",
+        "component_ingredients": ["Sausage", "Bacon", "Turkey Sausage"],
+        "tags": ["protein", "side", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "B5",
+        "name": "Coffee",
+        "description": "12 oz of hot coffee.",
+        "price": 1.99,
+        "category": "Breakfast",
+        "type": "A La Carte",
+        "component_ingredients": ["Drink"],
+        "tags": ["drink", "hot", "vegan", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "B6",
+        "name": "Milk",
+        "description": "16 oz cup of chilled milk.",
+        "price": 1.99,
+        "category": "Breakfast",
+        "type": "A La Carte",
+        "component_ingredients": ["Milk"],
+        "tags": ["drink", "cold", "vegetarian", "gluten-free", "contains dairy"],
+        "suggested_substitutions": []
+      }
+    ],
+    "lunch": [
+      {
+        "id": "L1",
+        "name": "Classic Burger Meal",
+        "description": "Our signature beef burger with choice of side and a drink.",
+        "price": 14.99,
+        "category": "Lunch",
+        "type": "Meal",
+        "component_ingredients": ["Ground Beef", "Bun", "Potatoes", "Drink", "Milk", "Butter", "Seasonal Vegetables"],
+        "options_category": "Choice of Side",
+        "options": ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"],
+        "tags": ["hearty", "classic", "beef", "american", "contains gluten", "dairy-free option"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Ground Beef",
+            "suggest_item_id": "L2",
+            "rag_justification": "Based on your search, you might also love our in-house ground Chicken Burger!"
+          },
+          {
+            "trigger_ingredient": "Ground Beef",
+            "suggest_item_id": "L5",
+            "rag_justification": "If you're in the mood for a classic, our crispy Buffalo Fish meal is a fantastic choice."
+          }
+        ]
+      },
+      {
+        "id": "L2",
+        "name": "Chicken Burger Meal",
+        "description": "In-house ground chicken burger with choice of side and a drink.",
+        "price": 14.99,
+        "category": "Lunch",
+        "type": "Meal",
+        "component_ingredients": ["Ground Chicken", "Bun", "Potatoes", "Drink", "Milk", "Butter", "Seasonal Vegetables"],
+        "options_category": "Choice of Side",
+        "options": ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"],
+        "tags": ["hearty", "classic", "chicken", "american", "contains gluten", "dairy-free option"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Ground Chicken",
+            "suggest_item_id": "L1",
+            "rag_justification": "Our signature Classic Beef Burger is also a fantastic choice!"
+          }
+        ]
+      },
+      {
+        "id": "L3",
+        "name": "Fried Chicken Meal",
+        "description": "Two pieces of our famous fried chicken, choice of side, and a fresh-baked roll.",
+        "price": 15.99,
+        "category": "Lunch",
+        "type": "Meal",
+        "component_ingredients": ["Whole Chicken", "Potatoes", "Milk", "Butter", "Flour", "Yeast", "Eggs", "Seasonal Vegetables"],
+        "options_category": "Choice of Side",
+        "options": ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"],
+        "tags": ["hearty", "classic", "chicken", "comfort food", "contains dairy", "contains gluten"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Whole Chicken",
+            "suggest_item_id": "L5",
+            "rag_justification": "For another great crispy classic, we recommend our Buffalo Fish meal."
+          }
+        ]
+      },
+      {
+        "id":"L4",
+        "name": "Hamburger Steak Meal",
+        "description": "A hearty hamburger steak smothered in gravy, with choice of side and a roll.",
+        "price": 16.99,
+        "category": "Lunch",
+        "type": "Meal",
+        "component_ingredients": ["Ground Beef", "Gravy Mix", "Potatoes", "Milk", "Butter", "Flour", "Yeast", "Eggs", "Seasonal Vegetables"],
+        "options_category": "Choice of Side",
+        "options": ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"],
+        "tags": ["hearty", "classic", "beef", "comfort food", "contains dairy", "contains gluten"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Ground Beef",
+            "suggest_item_id": "L3",
+            "rag_justification": "For another great comfort-food classic, we highly recommend our famous Fried Chicken meal!"
+          }
+        ]
+      },
+      {
+        "id": "L5",
+        "name": "Buffalo Fish Meal",
+        "description": "Crispy fried buffalo fish with a choice of side and a roll.",
+        "price": 15.99,
+        "category": "Lunch",
+        "type": "Meal",
+        "component_ingredients": ["Buffalo Fish", "Potatoes", "Flour", "Yeast", "Eggs", "Milk", "Butter", "Seasonal Vegetables"],
+        "options_category": "Choice of Side",
+        "options": ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"],
+        "tags": ["hearty", "fish", "crispy", "comfort food", "contains gluten", "dairy-free"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Buffalo Fish",
+            "suggest_item_id": "L3",
+            "rag_justification": "If you like our crispy fish, you'll love our famous Fried Chicken meal!"
+          }
+        ]
+      },
+      {
+        "id": "L6",
+        "name": "Classic Burger (A La Carte)",
+        "description": "Our signature beef burger on a bun. No sides.",
+        "price": 9.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Ground Beef", "Bun"],
+        "tags": ["classic", "beef", "american", "contains gluten", "dairy-free option"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Ground Beef",
+            "suggest_item_id": "L7",
+            "rag_justification": "You might also love our in-house ground Chicken Burger!"
+          }
+        ]
+      },
+      {
+        "id": "L7",
+        "name": "Chicken Burger (A La Carte)",
+        "description": "In-house ground chicken burger on a bun. No sides.",
+        "price": 9.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Ground Chicken", "Bun"],
+        "tags": ["classic", "chicken", "american", "contains gluten", "dairy-free option"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Ground Chicken",
+            "suggest_item_id": "L6",
+            "rag_justification": "Our signature Classic Beef Burger is also a fantastic choice!"
+          }
+        ]
+      },
+      {
+        "id": "L8",
+        "name": "Fried Chicken (A La Carte)",
+        "description": "Two pieces of our famous fried chicken.",
+        "price": 10.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Whole Chicken"],
+        "tags": ["classic", "chicken", "comfort food", "contains gluten"],
+        "suggested_substitutions": [
+          {
+            "trigger_ingredient": "Whole Chicken",
+            "suggest_item_id": "L9",
+            "rag_justification": "For another great crispy classic, we recommend our Buffalo Fish."
+          }
+        ]
+      },
+      {
+        "id": "L9",
+        "name": "Buffalo Fish (A La Carte)",
+        "description": "A crispy fried buffalo fish fillet.",
+        "price": 10.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Buffalo Fish"],
+        "tags": ["fish", "crispy", "contains gluten", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L10",
+        "name": "Side: Fresh Cut Fries",
+        "description": "A basket of our fresh, hand-cut french fries.",
+        "price": 4.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Potatoes"],
+        "tags": ["side", "crispy", "vegan", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L11",
+        "name": "Side: Mashed Potatoes",
+        "description": "Creamy mashed potatoes, with gravy on request.",
+        "price": 4.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Potatoes", "Milk", "Butter", "Gravy Mix"],
+        "tags": ["side", "comfort food", "vegetarian", "gluten-free", "contains dairy"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L12",
+        "name": "Side: Fresh-Baked Roll",
+        "description": "A single roll, baked fresh in-house.",
+        "price": 1.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Flour", "Yeast", "Eggs", "Butter"],
+        "tags": ["side", "bread", "vegetarian", "contains gluten", "contains dairy"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L13",
+        "name": "Fountain Drink",
+        "description": "Your choice of soft drink.",
+        "price": 2.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Drink"],
+        "tags": ["drink", "cold", "vegan", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L14",
+        "name": "Juice",
+        "description": "Your choice of apple, oranage, or fruit punch juice.",
+        "price": 2.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Fruit"],
+        "tags": ["drink", "cold", "vegan", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      },
+      {
+        "id": "L15",
+        "name": "Side: Vegetable Medley",
+        "description": "Steamed seasonal vegetables.",
+        "price": 4.99,
+        "category": "Lunch",
+        "type": "A La Carte",
+        "component_ingredients": ["Seasonal Vegetables"],
+        "tags": ["side", "healthy", "vegan", "gluten-free", "dairy-free"],
+        "suggested_substitutions": []
+      }
+    ]
+  }
+}

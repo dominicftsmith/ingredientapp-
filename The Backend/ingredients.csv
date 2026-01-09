@@ -1,0 +1,19 @@
+IngredientID,IngredientName,Category,DefaultUnit,LowThreshold,HighThreshold
+ING-001,Ground Beef,Protein,lbs,10,50
+ING-002,Potatoes,Produce,lbs,50,200
+ING-003,Flour,Staple,lbs,25,100
+ING-004,Eggs,Protein,each,10,100
+ING-005,Sausage,Protein,lbs,5,25
+ING-006,Bacon ,Protein,lbs,5,25
+ING-007,Turkey Sausage,Protein,lbs,2,10
+ING-008,Whole Chicken ,Protein,lbs,15,80
+ING-009,Milk ,Drink,gallon,5,30
+ING-010,Butter ,Staple,lbs,5,50
+ING-011,Yeast,Staple,ounce,1,10
+ING-012,Buffalo Fish,Protein,lbs,5,30
+ING-013,Fountain Drink,Drink,gallon,15,100
+ING-014,Coffee,Drink,gallon,5,25
+ING-015,Bottle Water,Drink,each,40,150
+ING-016,Fruit,Produce,lbs,20,125
+ING-017,Bread,Staple,loaf,5,15
+ING-018,Vegetables,Produce,lbs,10,40

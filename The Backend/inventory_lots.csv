@@ -1,0 +1,19 @@
+LotID,IngredientID,IngredientName,DefaultUnit,Category,PurchaseDate,ExpirationDate,PurchaseQuantity,CurrentQuantity
+LOT-1001,ING-001 ,Ground Beef,lbs,Lunch,12/15/2025,12/26/2025,50,50
+LOT-1002,ING-008 ,Whole Chicken ,lbs,Lunch,12/15/2025,12/27/2025,25,25
+LOT-1003,ING-002 ,Potatoes,lbs,Produce,12/15/2025,12/30/2025,300,300
+LOT-1004,ING-007,Turkey Sausage,lbs,Breakfast,12/15/2025,12/30/2025,8.1,8.1
+LOT-1005,ING-009,Milk ,gallon,Dairy,12/15/2025,12/30/2025,24.3,24.3
+LOT-1006,ING-010,Butter ,lbs,Dairy,12/15/2025,12/30/2025,40.5,40.5
+LOT-1007,ING-015,Bottle Water,bottle,General,12/15/2025,11/15/2027,121.5,121.5
+LOT-1008,ING-016,Fruit,lbs,Produce,12/15/2025,12/30/2025,101.25,101.25
+LOT-1009,ING-017,Bread,loaf,General,12/15/2025,12/30/2025,12.15,12.15
+LOT-1010,ING-018,Vegetables,lbs,Produce,12/15/2025,12/30/2025,32.4,32.4
+LOT-1011,ING-011,Yeast,ounce,General,12/15/2025,11/15/2027,8.1,8.1
+LOT-1012,ING-012,Buffalo Fish,lbs,Lunch,12/15/2025,12/30/2025,24.3,24.3
+LOT-1013,ING-013,Fountain Drink,gallon,General,12/15/2025,3/20/2026,81,81
+LOT-1014,ING-014,Coffee,gallon,Breakfast,12/15/2025,12/30/2025,20.25,20.25
+LOT-1015,ING-003,Flour,lbs,General,12/15/2025,11/15/2027,81,81
+LOT-1016,ING-004,Eggs,each,General,12/15/2025,12/30/2025,81,81
+LOT-1017,ING-005,Sausage,lbs,Breakfast,12/15/2025,12/30/2025,20.25,20.25
+LOT-1018,ING-006,Bacon ,lbs,Breakfast,12/15/2025,12/30/2025,20.25,20.25

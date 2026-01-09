@@ -1,0 +1,234 @@
+openapi: 3.0.3
+info:
+  title: "Chef's Co-pilot API"
+  description: |
+    API contract for the "Chef's Co-pilot" demo. 
+    This spec defines the communication between the React frontend 
+    and the Python (FastAPI) backend.
+  version: 1.0.0
+
+paths:
+  /api/v1/patron_search:
+    post:
+      summary: "Patron-Facing Smart Search"
+      description: |
+        Takes a natural language query from a patron and returns an 
+        inventory-aware, ranked list of menu recommendations.
+      tags:
+        - Patron
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatronSearchRequest'
+      responses:
+        '200':
+          description: "A ranked list of menu recommendations."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MenuRecommendation'
+        '404':
+          description: "No matching menu items found for the query."
+
+  /api/v1/inventory:
+    get:
+      summary: "Get Full Inventory Status"
+      description: |
+        Returns the complete list of all ingredients, their current 
+        stock levels, and their thresholds for the Owner's Dashboard.
+      tags:
+        - Owner
+      responses:
+        '200':
+          description: "A list of all inventory items."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/InventoryItem'
+
+  /api/v1/owner_substitute:
+    post:
+      summary: "Suggest a Substitution (Special)"
+      description: |
+        Takes an ingredient name (e.g., 'Ground Beef') and returns an
+        AI-powered substitution recommendation based on inventory 
+        and pre-defined menu rules.
+      tags:
+        - Owner
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OwnerSubstituteRequest'
+      responses:
+        '200':
+          description: "A single, actionable substitution suggestion."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubstitutionSuggestion'
+        '404':
+          description: "No viable substitute found for that ingredient."
+
+components:
+  schemas:
+    # --- Request Schemas ---
+    PatronSearchRequest:
+      type: object
+      properties:
+        query:
+          type: string
+          example: "I'm in the mood for something hearty and beefy."
+      required:
+        - query
+        
+    OwnerSubstituteRequest:
+      type: object
+      properties:
+        ingredient_to_replace:
+          type: string
+          example: "Ground Beef"
+      required:
+        - ingredient_to_replace
+
+    # --- Response Schemas ---
+    MenuRecommendation:
+      description: "A single menu item. This schema directly mirrors the `menu_json.py` structure."
+      type: object
+      properties:
+        id:
+          type: string
+          example: "L1"
+        name:
+          type: string
+          example: "Classic Burger Meal"
+        description:
+          type: string
+          example: "Our signature beef burger with choice of side and a drink."
+        price:
+          type: number
+          example: 14.99
+        category:
+          type: string
+          example: "Lunch"
+        type:
+          type: string
+          example: "Meal"
+        component_ingredients:
+          type: array
+          items:
+            type: string
+          example: ["Ground Beef", "Bun", "Potatoes", "Drink"]
+        options_category:
+          type: string
+          example: "Choice of Side"
+        options:
+          type: array
+          items:
+            type: string
+          example: ["Fresh Cut Fries", "Mashed Potatoes", "Vegetable Medley"]
+        tags:
+          type: array
+          items:
+            type: string
+          example: ["hearty", "classic", "beef"]
+        suggested_substitutions:
+          type: array
+          items:
+            type: object
+            properties:
+              trigger_ingredient:
+                type: string
+              suggest_item_id:
+                type: string
+              rag_justification:
+                type: string
+            example:
+              trigger_ingredient: "Ground Beef"
+              suggest_item_id: "L2"
+              rag_justification: "You might also love our in-house ground Chicken Burger!"
+
+    InventoryItem:
+      description: "A single inventory item's status. Joined from `diner_inventory` and `inventory_lots`."
+      type: object
+      properties:
+        ingredient_id:
+          type: string
+          [cite_start]description: "From diner_inventory [cite: 64]"
+          example: "ING-001"
+        ingredient_name:
+          type: string
+          [cite_start]description: "From diner_inventory [cite: 65]"
+          example: "Ground Beef"
+        category:
+          type: string
+          [cite_start]description: "From diner_inventory [cite: 66]"
+          example: "Protein"
+        current_quantity:
+          type: number
+          [cite_start]description: "SUM of CurrentQuantity from `inventory_lots` [cite: 79] for this IngredientID [cite: 75]"
+          example: 12.5
+        default_unit:
+          type: string
+          [cite_start]description: "From diner_inventory [cite: 67]"
+          example: "lbs"
+        low_threshold:
+          type: number
+          [cite_start]description: "From diner_inventory [cite: 68]"
+          example: 20.0
+        high_threshold:
+          type: number
+          [cite_start]description: "From diner_inventory [cite: 69]"
+          example: 50.0
+        status:
+          type: string
+          description: "Calculated by backend (Low, Normal, High)"
+          example: "Low"
+
+    SubstitutionSuggestion:
+      description: "A single, actionable suggestion for an owner based on an ingredient."
+      type: object
+      properties:
+        original_ingredient:
+          type: string
+          example: "Ground Beef"
+        analysis:
+          type: string
+          description: "AI-generated summary of stock and menu items affected."
+          example: "Ground Beef is LOW (12.5 / 20.0 lbs). It's used in [Classic Burger Meal, Hamburger Steak Meal]."
+        primary_suggestion:
+          $ref: '#/components/schemas/SuggestionDetails'
+        secondary_suggestion:
+          $ref: '#/components/schemas/SuggestionDetails'
+          
+    SuggestionDetails:
+      description: "A reusable suggestion object. Can be an item-for-item or ingredient-for-ingredient swap."
+      type: object
+      properties:
+        type:
+          type: string
+          description: "e.g., 'Menu Item Swap' or 'Ingredient Swap'"
+          example: "Menu Item Swap"
+        suggested_item_name:
+          type: string
+          [cite_start]description: "From `Menu Substitution - main` [cite: 14]"
+          example: "Chicken Burger Meal"
+        suggested_ingredient_name:
+          type: string
+          description: "From our RAG 2 model"
+          example: "Ground Turkey"
+        rag_justification:
+          type: string
+          [cite_start]description: "Pre-written text from `Menu Substitution - main` [cite: 16]"
+          example: "Based on your search, you might also love our in-house ground Chicken Burger!"
+        inventory_impact:
+          type: string
+          description: "AI-generated text on the stock of the *new* item."
+          example: "Stock for Ground Chicken is HIGH (45.0 / 30.0 lbs)."

@@ -1,0 +1,75 @@
+SubstitutionID,Category,Original_ItemID,Original_ItemName,Description,Base_Price,Meal_Price,Meal_Components,Substitute_ID,SubstituteName,Priority,RAG_Justification
+SUB-001,MAIN_LUNCH,MENU-006,Fried Chicken,Two pieces of our famous fried chicken.,10.99,15.99,MENU-004|MENU-007|MENU-017|MENU-018,MENU-002,Hamburger Steak,,"For another hearty, classic comfort food, you might love our Hamburger Steak."
+SUB-001,MAIN_LUNCH,MENU-006,Fried Chicken,Two pieces of our famous fried chicken.,10.99,15.99,MENU-004|MENU-017|MENU-018,MENU-016,Fried Fish,,In the mood for something crispy and delicious? Our Fried Fish is a fantastic choice!
+SUB-002,MAIN_LUNCH,MENU-002,Hamburger Steak,A hearty hamburger steak smothered in gravy.,11.99,16.99,MENU-004|MENU-017|MENU-018,MENU-006,Fried Chicken,,"If you're looking for a classic, you can't go wrong with our famous Fried Chicken!"
+SUB-002,MAIN_LUNCH,MENU-002,Hamburger Steak,A hearty hamburger steak smothered in gravy.,11.99,16.99,MENU-004|MENU-017|MENU-018,MENU-016,Fried Fish,,Another great savory option is our crispy Fried Fish meal!
+SUB-003,MAIN_LUNCH,MENU-016,Fried Fish,2 Crispy fried buffalo fish steaks.,10.99,15.99,MENU-004|MENU-017|MENU-018,MENU-006,Fried Chicken,,You can't go wrong with our famous Fried Chicken – a true classic!
+SUB-003,MAIN_LUNCH,MENU-016,Fried Fish,2 Crispy fried buffalo fish steaks.,10.99,15.99,MENU-004|MENU-017|MENU-018,MENU-002,Hamburger Steak,,"For another hearty, classic comfort food, you might love our Hamburger Steak."
+SUB-005,MAIN_LUNCH,MENU-001,Hamburger,"Our signature beef burger, with toppings, on a bun.",9.99,14.99,MENU-003MENU-007||MENU-018,MENU-005,Chicken Burger,,"Based on your search, you might also love our in-house ground Chicken Burger!"
+SUB-006,MAIN_LUNCH,MENU-005,Chicken Burger,"In-house ground chicken burger, with toppings, on a bun.",9.99,14.99,MENU-003MENU-007||MENU-018,MENU-001,Hamburger,,Our signature Classic Beef Burger is also a fantastic choice!
+SUB-007,MAIN_BRKFAST,MENU-008,Bacon,Butcher's choice smoked bacon.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-009,Sausage,,Our classic sausage patties are also a delicious and savory breakfast choice.
+SUB-007,MAIN_BRKFAST,MENU-008,Bacon,Butcher's choice smoked bacon.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-010,Turkey Sausage,,"Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+SUB-007,MAIN_BRKFAST,MENU-008,Bacon,Butcher's choice smoked bacon.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-007,MAIN_BRKFAST,MENU-008,Bacon,Butcher's choice smoked bacon.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-008,MAIN_BRKFAST,MENU-009,Sausage,Butcher's choice smoked sausage patty.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-008,Bacon,,Our classic crispy bacon is also a delicious and savory breakfast choice.
+SUB-008,MAIN_BRKFAST,MENU-009,Sausage,Butcher's choice smoked sausage patty.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-010,Turkey Sausage,,"Looking for a lighter option? Our turkey sausage is a perfect, flavorful alternative."
+SUB-008,MAIN_BRKFAST,MENU-009,Sausage,Butcher's choice smoked sausage patty.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-008,MAIN_BRKFAST,MENU-009,Sausage,Butcher's choice smoked sausage patty.,3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-009,MAIN_BRKFAST,MENU-010,Turkey Sausage,"Lean, yet hearty, turkey sausage links.",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-008,Bacon,,Our classic crispy bacon is also a delicious and savory breakfast choice.
+SUB-009,MAIN_BRKFAST,MENU-010,Turkey Sausage,"Lean, yet hearty, turkey sausage links.",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-009,Sausage,,Our classic sausage patties are also a delicious and savory breakfast choice.
+SUB-009,MAIN_BRKFAST,MENU-010,Turkey Sausage,"Lean, yet hearty, turkey sausage links.",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-009,MAIN_BRKFAST,MENU-010,Turkey Sausage,"Lean, yet hearty, turkey sausage links.",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-010,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-008,Bacon,,Our classic crispy bacon is a great savory addition.
+SUB-010,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-009,Sausage,,Our classic sausage patties are a great savory addition.
+SUB-010,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-010,Turkey Sausage,,Our flavorful turkey sausage is a great savory addition.
+SUB-010,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-012,French Toast,,Or perhaps something sweet and savory? Our French Toast is amazing!
+SUB-011,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-020,Seasonal Fruit,,Seasonal fruit is another great side to start the day.
+SUB-011,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-021,Toast,,Who doesn't like extra toast?
+SUB-011,COMBO_BRKFAST,MENU-011,Side of Eggs,"Two eggs, your way. Options: sunny side up, over easy, ",3.99,10.99,MENU-011|MENU-021|MENU-013,MENU-012,French Toast,,A side of French toast.
+SUB-012,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,13.99,MENU-011|MENU-020|MENU-015,MENU-008,Bacon,,Our classic crispy bacon is a great savory addition.
+SUB-012,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,13.99,MENU-011|MENU-020|MENU-015,MENU-009,Sausage,,Our classic sausage patties are a great savory addition.
+SUB-012,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,13.99,MENU-011|MENU-020|MENU-015,MENU-010,Turkey Sausage,,Our flavorful turkey sausage is a great savory addition.
+SUB-012,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,13.99,MENU-011|MENU-020|MENU-015,MENU-011,Side of Eggs,,A side of eggs is also a great way to start the day!
+SUB-013,SIDE_COMBO,MENU-020,Seasonal Fruit,Fresh seasonal fruit in lemon juice.,2.99,NULL,NULL,SUB-011,Side of Eggs,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-013,SIDE_COMBO,MENU-020,Seasonal Fruit,Fresh seasonal fruit in lemon juice.,2.99,NULL,NULL,MENU-021,Toast,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-013,SIDE_COMBO,MENU-020,Seasonal Fruit,Fresh seasonal fruit in lemon juice.,2.99,NULL,NULL,MENU-012,French Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-014,SIDE_BRKFAST,MENU-021,Toast,"Two pieces of buttered toast, with your choice of jelly.",1.99,NULL,NULL,MENU-011,Side of Eggs,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-014,SIDE_BRKFAST,MENU-021,Toast,"Two pieces of buttered toast, with your choice of jelly.",1.99,NULL,NULL,MENU-020,Seasonal Fruit,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-014,SIDE_BRKFAST,MENU-021,Toast,"Two pieces of buttered toast, with your choice of jelly.",1.99,NULL,NULL,MENU-012,French Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-015,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,NULL,NULL,SUB-011,Side of Eggs,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-015,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,NULL,NULL,MENU-021,Toast,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-015,COMBO_BRKFAST,MENU-012,French Toast,Thick-cut french toast with seasonal fruit,6.99,NULL,NULL,MENU-020,Seasonal Fruit,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-016,SIDE_LUNCH,MENU-003,French Fries,"A basket of our fresh, hand-cut french fries.",4.99,NULL,NULL,MENU-004,Mashed Potatoes,,"Our fresh, hand-cut fries are a house favorite!"
+SUB-016,SIDE_LUNCH,MENU-003,French Fries,"A basket of our fresh, hand-cut french fries.",4.99,NULL,NULL,MENU-007,Veggie Medley,,Our steamed seasonal vegetable medley is a great healthy choice.
+SUB-016,SIDE_LUNCH,MENU-003,French Fries,"A basket of our fresh, hand-cut french fries.",4.99,NULL,NULL,MENU-017,Roll,,"Our creamy, homemade mashed potatoes are a fantastic side!"
+SUB-017,SIDE_LUNCH,MENU-004,Mashed Potatoes,"Creamy mashed potatoes, with gravy on request.",4.99,NULL,NULL,MENU-003,French Fries,,Our fresh-baked bun is also a great choice!
+SUB-017,SIDE_LUNCH,MENU-004,Mashed Potatoes,"Creamy mashed potatoes, with gravy on request.",4.99,NULL,NULL,MENU-007,Veggie Medley,,"A warm, fresh-baked roll is the perfect addition to any meal."
+SUB-017,SIDE_LUNCH,MENU-004,Mashed Potatoes,"Creamy mashed potatoes, with gravy on request.",4.99,NULL,NULL,MENU-017,Roll,,"A cold, refreshing glass of milk is a great choice."
+SUB-018,SIDE_LUNCH,MENU-007,Veggie Medley,Steamed seasonal vegetables.,2.99,NULL,NULL,MENU-003,French Fries,,We also have a selection of refreshing juices!
+SUB-018,SIDE_LUNCH,MENU-007,Veggie Medley,Steamed seasonal vegetables.,2.99,NULL,NULL,MENU-017,Roll,,A cold fountain drink is a perfect refresher.
+SUB-018,SIDE_LUNCH,MENU-007,Veggie Medley,Steamed seasonal vegetables.,2.99,NULL,NULL,MENU-004,Mashed Potatoes,,A crisp bottle of water is always a good option.
+SUB-019,SIDE_SPEC,MENU-017,Roll,"A single roll, baked fresh in-house.",1.99,NULL,NULL,MENU-003,French Fries,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-019,SIDE_SPEC,MENU-017,Roll,"A single roll, baked fresh in-house.",1.99,NULL,NULL,MENU-007,Veggie Medley,,We also have a selection of refreshing juices!
+SUB-019,SIDE_SPEC,MENU-017,Roll,"A single roll, baked fresh in-house.",1.99,NULL,NULL,MENU-004,Mashed Potatoes,,A cold fountain drink is a perfect refresher.
+SUB-019,SIDE_SPEC,MENU-017,Roll,"A single roll, baked fresh in-house.",1.99,NULL,NULL,POF-001,Bun,,A crisp bottle of water is always a good option.
+SUB-020,SIDE_SPEC,POF-001,Bun,"A single bun, baked fresh in-house.",1.99,NULL,NULL,MENU-017,Roll,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-021,DRINK,MENU-013,Coffee,Imported medium roast coffee,1.99,NULL,NULL,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-021,DRINK,MENU-013,Coffee,Imported coffee,1.99,NULL,NULL,MENU-015,Juice,,A cold fountain drink is a perfect refresher.
+SUB-021,DRINK,MENU-013,Coffee,Imported coffee,1.99,NULL,NULL,MENU-018,Fountain Drink,,A crisp bottle of water is always a good option.
+SUB-021,DRINK,MENU-013,Coffee,Imported coffee,1.99,NULL,NULL,MENU-019,Bottle Water,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-022,DRINK,MENU-014,Milk,Locally source dairy milk.,1.99,NULL,NULL,MENU-013,Coffee,,"A cold, refreshing glass of milk is a great choice."
+SUB-022,DRINK,MENU-014,Milk,Locally source dairy milk.,1.99,NULL,NULL,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-022,DRINK,MENU-014,Milk,Locally source dairy milk.,1.99,NULL,NULL,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.
+SUB-022,DRINK,MENU-014,Milk,Locally source dairy milk.,1.99,NULL,NULL,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-023,DRINK,MENU-015,Juice,"Your choice of apple, orange, or fruit punch juice. Freshly squeezed in-house.",2.99,NULL,NULL,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-023,DRINK,MENU-015,Juice,"Your choice of apple, orange, or fruit punch juice. Freshly squeezed in-house.",2.99,NULL,NULL,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-023,DRINK,MENU-015,Juice,"Your choice of apple, orange, or fruit punch juice. Freshly squeezed in-house.",2.99,NULL,NULL,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.
+SUB-023,DRINK,MENU-015,Juice,"Your choice of apple, orange, or fruit punch juice. Freshly squeezed in-house.",2.99,NULL,NULL,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-024,DRINK,MENU-018,Fountain Drink,Your choice of soft drink.,2.99,NULL,NULL,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-024,DRINK,MENU-018,Fountain Drink,Your choice of soft drink.,2.99,NULL,NULL,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-024,DRINK,MENU-018,Fountain Drink,Your choice of soft drink.,2.99,NULL,NULL,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-024,DRINK,MENU-018,Fountain Drink,Your choice of soft drink.,2.99,NULL,NULL,MENU-019,Bottle Water,,A crisp bottle of water is always a good option.
+SUB-025,DRINK,MENU-019,Bottle Water,Locally sourced bottled water.,1.99,NULL,NULL,MENU-013,Coffee,,"A cup of our fresh, hot coffee is a great way to start!"
+SUB-025,DRINK,MENU-019,Bottle Water,Locally sourced bottled water.,1.99,NULL,NULL,MENU-014,Milk,,"A cold, refreshing glass of milk is a great choice."
+SUB-025,DRINK,MENU-019,Bottle Water,Locally sourced bottled water.,1.99,NULL,NULL,MENU-015,Juice,,We also have a selection of refreshing juices!
+SUB-025,DRINK,MENU-019,Bottle Water,Locally sourced bottled water.,1.99,NULL,NULL,MENU-018,Fountain Drink,,A cold fountain drink is a perfect refresher.
