@@ -11,8 +11,8 @@ export default function SmartMenu() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // CHANGE 1: Define the API URL based on where we are running (Local vs Online)
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+  // We are hardcoding the live server for the demo
+const API_BASE_URL = "https://chef-demo-backend.onrender.com";
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
