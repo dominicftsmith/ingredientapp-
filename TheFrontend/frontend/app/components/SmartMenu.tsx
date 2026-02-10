@@ -84,7 +84,7 @@ const API_BASE_URL = "https://chef-demo-backend.onrender.com";
         <input
           type="text"
           placeholder="e.g., 'I want a burger...'"
-          className="w-full p-4 pl-6 pr-14 rounded-full border-2 border-slate-200 shadow-sm focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all text-lg"
+          className="w-full p-4 pl-6 pr-14 rounded-full border-2 border-slate-200 shadow-sm focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all text-lg placeholder-slate-400"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
